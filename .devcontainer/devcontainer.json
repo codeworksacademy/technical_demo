@@ -1,0 +1,7 @@
+{
+  "image": "mcr.microsoft.com/devcontainers/universal:2",
+  "forwardPorts": [
+    8080
+  ],
+  "postCreateCommand": "npm i -g bcw && bcw serve"
+}
